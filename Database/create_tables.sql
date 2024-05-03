@@ -51,6 +51,7 @@ CREATE TABLE IF NOT EXISTS Articulo_Vendido (
 INSERT INTO Usuario (nombre, correo, contraseña, tipoUsuario) 
 VALUES 
     ('Juan Pérez', 'juan@example.com', 'contraseña123', 'dueño'),
+    ('Martín Portela', 'mgportelad@me.com', 'admin', 'dueño'),
     ('María García', 'maria@example.com', 'password456', 'cliente'),
     ('Carlos López', 'carlos@example.com', '123456', 'cliente');
 
